@@ -4,7 +4,7 @@ import express from "express"
 import postRoutes from "./routes/posts.js"
 import connectDB from "./utils/db.js"
 
-config({ path: "../.env" })
+config()
 
 const app = express()
 
